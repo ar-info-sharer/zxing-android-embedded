@@ -263,4 +263,8 @@ public class CameraInstance {
     protected CameraSurface getSurface() {
         return surface;
     }
+    
+    public Camera getCamera() {
+        return this.getCameraManager().getCamera();
+    }
 }
